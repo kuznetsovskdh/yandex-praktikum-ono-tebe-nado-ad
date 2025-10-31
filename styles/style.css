@@ -1,1 +1,96 @@
-/* место для вашего кода */
+body {
+  min-width: 1100px;
+  margin: 0;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.address {
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.address a {
+  text-decoration: none;
+  color: #000;
+}
+
+.aligned-text {
+  display: block;
+  line-height: 115px;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.header__menu {
+  justify-self: start;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 33px;
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  justify-self: center;
+}
+
+.header__logo-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Адрес в шапке */
+.header__address {
+  max-width: 240px;
+  justify-self: end;
+}
