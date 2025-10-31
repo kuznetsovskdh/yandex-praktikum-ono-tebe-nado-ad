@@ -1,1 +1,149 @@
-/* место для вашего кода */
+body {
+  min-width: 1100px;
+  margin: 0;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.address {
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.address a {
+  text-decoration: none;
+  color: #000;
+}
+
+.aligned-text {
+  display: block;
+  line-height: 115px;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.header__menu {
+  justify-self: start;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 33px;
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  justify-self: center;
+}
+
+.header__logo-image {
+  width: 100%;
+  height: auto;
+}
+
+.header__address {
+  max-width: 240px;
+  justify-self: end;
+}
+
+.cover {
+  position: relative;
+  background-image: url('https://c.animaapp.com/ExfAuOn5/img/lotus-flower.png');
+  background-size: cover;
+  background-position: center;
+  padding: 165px 50px 50px;
+}
+
+.cover__title {
+  position: relative;
+  margin: 0 0 135px;
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.cover__description {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 78px;
+  z-index: 2;
+}
+
+.cover__description-text {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  word-spacing: 18px;
+  line-height: 28px;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bet-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
